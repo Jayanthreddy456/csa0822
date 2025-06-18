@@ -1,0 +1,12 @@
+text = input("Enter a string: ")
+
+reversed_text = text[::-1]
+print("Reversed string:", reversed_text)
+
+char = input("Enter character to count: ")
+print("Count of character:", text.count(char))
+
+old_char = input("Enter character to replace: ")
+new_char = input("Enter new character: ")
+replaced_text = text.replace(old_char, new_char)
+print("String after replacement:", replaced_text)
